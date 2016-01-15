@@ -1,0 +1,8 @@
+db:
+  image: postgres
+  environment:
+    POSTGRES_PASSWORD: 'root'
+    POSTGRES_USER: 'office_micro'
+    POSTGRES_DB: 'office_micro'
+  ports:
+    - "5432:5432"
