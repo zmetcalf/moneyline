@@ -6,9 +6,14 @@
 */
 
 module.exports = {
-
   attributes: {
-
+    moneyLine: 'integer',
+    pointSpread: 'integer',
+    game: {
+      model: 'game'
+    },
+    team: {
+      model: 'team'
+    },
   }
 };
-

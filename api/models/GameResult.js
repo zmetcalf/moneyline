@@ -8,7 +8,12 @@
 module.exports = {
 
   attributes: {
-
+    game: {
+      model: 'game'
+    },
+    team: {
+      model: 'team'
+    },
+    score: 'integer'
   }
 };
-
