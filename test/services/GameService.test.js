@@ -1,8 +1,10 @@
-describe('UserController', function() {
-
-  describe('#login()', function() {
-    it('should redirect to /mypage', function (done) {
-      done();
+describe('GameService', function() {
+  describe('updateGames', function() {
+    it('should update games.', function (done) {
+      GameService.updateGames(function(err, response) {
+        console.log(response);
+        done();
+      });
     });
   });
 

@@ -1,0 +1,24 @@
+<Schedule PUBLISH_DATE="02/02/2016" PUBLISH_TIME="10:41" TS="1454470917144">
+  <EventType GROUP="E" ID="NHL" NAME="Hockey - NHL" SPORT="H">
+    <Date DTEXT="Wed, Feb 3, 16" TS="1454475600000">
+      <Event DenySameGame="false" GAME_STATUS="" ID="2341755" LIVE_ENABLED="false" LineOrder="D" NAME="Detroit Red Wings @ Tampa Bay Lightning" COMPETITION="Hockey - NHL" PXP_GAME_ID="7521848" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2341755-343" NAME="Tampa Bay Lightning" NUM="1" ROT="54">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="114495126" NUMBER="" TS="1454470241509" VALUE="-160"><Odds FRACTION="8/13" Line="-160" MULTIPLIER="1.625" RISK="160" WIN="100"/>Tampa Bay Lightning</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2341755-367" NAME="Detroit Red Wings" NUM="2" ROT="53">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="114495125" NUMBER="" TS="1454470241487" VALUE="+130"><Odds FRACTION="13/10" Line="+130" MULTIPLIER="2.30" RISK="100" WIN="130"/>Detroit Red Wings</Choice>
+          </Line>
+        </Competitor>
+        <Time TTEXT="08:00PM EST" TS="1454547600000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="114495133" NUMBER="5.0" TS="1454470241493" VALUE="+5.0 (-120)"><Odds FRACTION="5/6" Line="-120" MULTIPLIER="1.833" RISK="120" WIN="100"/>Over Over</Choice>
+          <Choice ID="114495134" NUMBER="5.0" TS="1454470241515" VALUE="+5.0 (-110)"><Odds FRACTION="10/11" Line="-110" MULTIPLIER="1.909" RISK="110" WIN="100"/>Under Under</Choice>
+        </Line>
+      </Event>
+    </Date>
+    <SEGMENT CODE="NHLWG" SEQUENCE_NUMBER="1" SHORT_NAME="Game" NAME="Whole Game" EventType="NHL"/>
+  </EventType>
+</Schedule>
