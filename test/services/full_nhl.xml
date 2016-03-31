@@ -1,0 +1,263 @@
+<Schedule PUBLISH_DATE="03/30/2016" PUBLISH_TIME="10:59" TS="1459393159362">
+<EventType GROUP="E" ID="NHL" NAME="Hockey - NHL" SPORT="H">
+<Date DTEXT="Thu, Mar 31, 16" TS="1459396800000">
+<Event DenySameGame="false" GAME_STATUS="" ID="2383875" LIVE_ENABLED="false" LineOrder="D" NAME="Nashville Predators @ Pittsburgh Penguins" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522642" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383875-505" NAME="Pittsburgh Penguins" NUM="1" ROT="4">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159507944" NUMBER="" TS="1459391199967" VALUE="-145">
+<Odds FRACTION="20/29" Line="-145" MULTIPLIER="1.690" RISK="145" WIN="100"/>
+Pittsburgh Penguins
+</Choice>
+</Line>
+</Competitor>
+<Competitor ID="2383875-801" NAME="Nashville Predators" NUM="2" ROT="3">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159507945" NUMBER="" TS="1459391199992" VALUE="+115">
+<Odds FRACTION="23/20" Line="+115" MULTIPLIER="2.150" RISK="100" WIN="115"/>
+Nashville Predators
+</Choice>
+</Line>
+</Competitor>
+<Time TTEXT="07:00PM EDT" TS="1459465200000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159507933" NUMBER="5½" TS="1459391199988" VALUE="+5½ (+105)">
+<Odds FRACTION="21/20" Line="+105" MULTIPLIER="2.050" RISK="100" WIN="105"/>
+Over Over
+</Choice>
+<Choice ID="159507932" NUMBER="5½" TS="1459391199961" VALUE="+5½ (-135)">
+<Odds FRACTION="20/27" Line="-135" MULTIPLIER="1.741" RISK="135" WIN="100"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383873" LIVE_ENABLED="false" LineOrder="D" NAME="New York Rangers @ Carolina Hurricanes" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522644" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383873-364" NAME="Carolina Hurricanes" NUM="1" ROT="8">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159508547" NUMBER="" TS="1459391229894" VALUE="+115">
+<Odds FRACTION="23/20" Line="+115" MULTIPLIER="2.150" RISK="100" WIN="115"/>
+Carolina Hurricanes
+</Choice>
+</Line>
+</Competitor>
+<Competitor ID="2383873-376" NAME="New York Rangers" NUM="2" ROT="7">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159508546" NUMBER="" TS="1459391229876" VALUE="-145">
+<Odds FRACTION="20/29" Line="-145" MULTIPLIER="1.690" RISK="145" WIN="100"/>
+New York Rangers
+</Choice>
+</Line>
+</Competitor>
+<Time TTEXT="07:00PM EDT" TS="1459465200000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159508550" NUMBER="5.0" TS="1459391229882" VALUE="+5.0 (-125)">
+<Odds FRACTION="4/5" Line="-125" MULTIPLIER="1.800" RISK="125" WIN="100"/>
+Over Over
+</Choice>
+<Choice ID="159508551" NUMBER="5.0" TS="1459391229896" VALUE="+5.0 (-105)">
+<Odds FRACTION="20/21" Line="-105" MULTIPLIER="1.952381" RISK="105" WIN="100"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383872" LIVE_ENABLED="false" LineOrder="D" NAME="Toronto Maple Leafs @ Buffalo Sabres" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522638" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383872-360" NAME="Buffalo Sabres" NUM="1" ROT="6">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159507940" NUMBER="" TS="1459391199965" VALUE="-135">
+<Odds FRACTION="20/27" Line="-135" MULTIPLIER="1.741" RISK="135" WIN="100"/>
+Buffalo Sabres
+</Choice>
+</Line>
+</Competitor>
+<Competitor ID="2383872-365" NAME="Toronto Maple Leafs" NUM="2" ROT="5">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159507941" NUMBER="" TS="1459391199993" VALUE="+105">
+<Odds FRACTION="21/20" Line="+105" MULTIPLIER="2.050" RISK="100" WIN="105"/>
+Toronto Maple Leafs
+</Choice>
+</Line>
+</Competitor>
+<Time TTEXT="07:00PM EDT" TS="1459465200000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159507952" NUMBER="5.0" TS="1459391199966" VALUE="+5.0 (-130)">
+<Odds FRACTION="10/13" Line="-130" MULTIPLIER="1.770" RISK="130" WIN="100"/>
+Over Over
+</Choice>
+<Choice ID="159507953" NUMBER="5.0" TS="1459391199997" VALUE="+5.0 (EVEN)">
+<Odds FRACTION="1/1" Line="EVEN" MULTIPLIER="2.00" RISK="100" WIN="100"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383871" LIVE_ENABLED="false" LineOrder="D" NAME="Columbus Blue Jackets @ New York Islanders" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522640" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383871-13916" NAME="New York Islanders" NUM="1" ROT="2">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159507948" NUMBER="" TS="1459391199967" VALUE="-210">
+<Odds FRACTION="10/21" Line="-210" MULTIPLIER="1.47619" RISK="210" WIN="100"/>
+New York Islanders
+</Choice>
+</Line>
+<Line ORDER="1" TYPE="Canadian Line"/>
+</Competitor>
+<Competitor ID="2383871-1186" NAME="Columbus Blue Jackets" NUM="2" ROT="1">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159507949" NUMBER="" TS="1459391199994" VALUE="+170">
+<Odds FRACTION="17/10" Line="+170" MULTIPLIER="2.700" RISK="100" WIN="170"/>
+Columbus Blue Jackets
+</Choice>
+</Line>
+<Line ORDER="1" TYPE="Canadian Line"/>
+</Competitor>
+<Time TTEXT="07:00PM EDT" TS="1459465200000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159507937" NUMBER="5½" TS="1459391199988" VALUE="+5½ (EVEN)">
+<Odds FRACTION="1/1" Line="EVEN" MULTIPLIER="2.00" RISK="100" WIN="100"/>
+Over Over
+</Choice>
+<Choice ID="159507936" NUMBER="5½" TS="1459391199963" VALUE="+5½ (-130)">
+<Odds FRACTION="10/13" Line="-130" MULTIPLIER="1.770" RISK="130" WIN="100"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383879" LIVE_ENABLED="false" LineOrder="D" NAME="Montreal Canadiens @ Tampa Bay Lightning" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522646" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383879-343" NAME="Tampa Bay Lightning" NUM="1" ROT="12">
+<Line ORDER="2" TYPE="Moneyline"/>
+</Competitor>
+<Competitor ID="2383879-340" NAME="Montreal Canadiens" NUM="2" ROT="11">
+<Line ORDER="2" TYPE="Moneyline"/>
+</Competitor>
+<Time TTEXT="07:30PM EDT" TS="1459467000000"/>
+<Line ORDER="3" TYPE="Total"/>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383880" LIVE_ENABLED="false" LineOrder="D" NAME="New Jersey Devils @ Florida Panthers" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522648" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383880-362" NAME="Florida Panthers" NUM="1" ROT="10">
+<Line ORDER="2" TYPE="Moneyline"/>
+</Competitor>
+<Competitor ID="2383880-1032" NAME="New Jersey Devils" NUM="2" ROT="9">
+<Line ORDER="2" TYPE="Moneyline"/>
+</Competitor>
+<Time TTEXT="07:30PM EDT" TS="1459467000000"/>
+<Line ORDER="3" TYPE="Total"/>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383885" LIVE_ENABLED="false" LineOrder="D" NAME="Ottawa Senators @ Minnesota Wild" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522650" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383885-1029" NAME="Minnesota Wild" NUM="1" ROT="14">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509055" NUMBER="" TS="1459391262983" VALUE="-210">
+<Odds FRACTION="10/21" Line="-210" MULTIPLIER="1.47619" RISK="210" WIN="100"/>
+Minnesota Wild
+</Choice>
+</Line>
+</Competitor>
+<Competitor ID="2383885-370" NAME="Ottawa Senators" NUM="2" ROT="13">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509054" NUMBER="" TS="1459391262956" VALUE="+170">
+<Odds FRACTION="17/10" Line="+170" MULTIPLIER="2.700" RISK="100" WIN="170"/>
+Ottawa Senators
+</Choice>
+</Line>
+</Competitor>
+<Time TTEXT="08:00PM EDT" TS="1459468800000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159509058" NUMBER="5.0" TS="1459391262957" VALUE="+5.0 (-130)">
+<Odds FRACTION="10/13" Line="-130" MULTIPLIER="1.770" RISK="130" WIN="100"/>
+Over Over
+</Choice>
+<Choice ID="159509059" NUMBER="5.0" TS="1459391262984" VALUE="+5.0 (EVEN)">
+<Odds FRACTION="1/1" Line="EVEN" MULTIPLIER="2.00" RISK="100" WIN="100"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383891" LIVE_ENABLED="false" LineOrder="D" NAME="Arizona Coyotes @ Dallas Stars" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522652" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383891-355" NAME="Dallas Stars" NUM="1" ROT="16">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509261" NUMBER="" TS="1459391285179" VALUE="-230">
+<Odds FRACTION="10/23" Line="-230" MULTIPLIER="1.434783" RISK="230" WIN="100"/>
+Dallas Stars
+</Choice>
+</Line>
+</Competitor>
+<Competitor ID="2383891-359" NAME="Arizona Coyotes" NUM="2" ROT="15">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509260" NUMBER="" TS="1459391285156" VALUE="+180">
+<Odds FRACTION="9/5" Line="+180" MULTIPLIER="2.800" RISK="100" WIN="180"/>
+Arizona Coyotes
+</Choice>
+</Line>
+</Competitor>
+<Time TTEXT="08:30PM EDT" TS="1459470600000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159509257" NUMBER="5½" TS="1459391285158" VALUE="+5½ (-115)">
+<Odds FRACTION="20/23" Line="-115" MULTIPLIER="1.870" RISK="115" WIN="100"/>
+Over Over
+</Choice>
+<Choice ID="159509256" NUMBER="5½" TS="1459391285144" VALUE="+5½ (-115)">
+<Odds FRACTION="20/23" Line="-115" MULTIPLIER="1.870" RISK="115" WIN="100"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383905" LIVE_ENABLED="false" LineOrder="D" NAME="Calgary Flames @ Los Angeles Kings" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522654" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383905-353" NAME="Los Angeles Kings" NUM="1" ROT="18">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509617" NUMBER="" TS="1459391324074" VALUE="-275">
+<Odds FRACTION="4/11" Line="-275" MULTIPLIER="1.363636" RISK="275" WIN="100"/>
+Los Angeles Kings
+</Choice>
+</Line>
+</Competitor>
+<Competitor ID="2383905-356" NAME="Calgary Flames" NUM="2" ROT="17">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509616" NUMBER="" TS="1459391324060" VALUE="+225">
+<Odds FRACTION="9/4" Line="+225" MULTIPLIER="3.250" RISK="100" WIN="225"/>
+Calgary Flames
+</Choice>
+</Line>
+</Competitor>
+<Time TTEXT="10:30PM EDT" TS="1459477800000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159509604" NUMBER="5.0" TS="1459391324059" VALUE="+5.0 (-140)">
+<Odds FRACTION="5/7" Line="-140" MULTIPLIER="1.714286" RISK="140" WIN="100"/>
+Over Over
+</Choice>
+<Choice ID="159509605" NUMBER="5.0" TS="1459391324087" VALUE="+5.0 (+110)">
+<Odds FRACTION="11/10" Line="+110" MULTIPLIER="2.100" RISK="100" WIN="110"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+<Event DenySameGame="false" GAME_STATUS="" ID="2383906" LIVE_ENABLED="false" LineOrder="D" NAME="Vancouver Canucks @ San Jose Sharks" COMPETITION="Hockey - NHL" PXP_GAME_ID="7522656" Publish="true" STATUS="Open" GROUP="E">
+<Competitor ID="2383906-508" NAME="San Jose Sharks" NUM="1" ROT="20">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509608" NUMBER="" TS="1459391324060" VALUE="-270">
+<Odds FRACTION="10/27" Line="-270" MULTIPLIER="1.370" RISK="270" WIN="100"/>
+San Jose Sharks
+</Choice>
+</Line>
+<Line ORDER="1" TYPE="Canadian Line"/>
+</Competitor>
+<Competitor ID="2383906-350" NAME="Vancouver Canucks" NUM="2" ROT="19">
+<Line ORDER="2" TYPE="Moneyline">
+<Choice ID="159509609" NUMBER="" TS="1459391324089" VALUE="+220">
+<Odds FRACTION="11/5" Line="+220" MULTIPLIER="3.200" RISK="100" WIN="220"/>
+Vancouver Canucks
+</Choice>
+</Line>
+<Line ORDER="1" TYPE="Canadian Line"/>
+</Competitor>
+<Time TTEXT="10:30PM EDT" TS="1459477800000"/>
+<Line ORDER="3" TYPE="Total">
+<Choice ID="159509613" NUMBER="5.0" TS="1459391324090" VALUE="+5.0 (-135)">
+<Odds FRACTION="20/27" Line="-135" MULTIPLIER="1.741" RISK="135" WIN="100"/>
+Over Over
+</Choice>
+<Choice ID="159509612" NUMBER="5.0" TS="1459391324061" VALUE="+5.0 (+105)">
+<Odds FRACTION="21/20" Line="+105" MULTIPLIER="2.050" RISK="100" WIN="105"/>
+Under Under
+</Choice>
+</Line>
+</Event>
+</Date>
+<SEGMENT CODE="NHLWG" SEQUENCE_NUMBER="1" SHORT_NAME="Game" NAME="Whole Game" EventType="NHL"/>
+</EventType>
+</Schedule>
