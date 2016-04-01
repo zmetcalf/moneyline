@@ -31,7 +31,8 @@
     "chai": "~2.1.x",
     "grunt-cli": "~0.1.x",
     "grunt-mocha-test": "~0.12.x",
-    "mocha": "~2.4.x"
+    "mocha": "~2.4.x",
+    "sinon": "~1.7.x"
   },
   "scripts": {
     "debug": "node debug app.js",
