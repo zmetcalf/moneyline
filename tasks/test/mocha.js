@@ -12,7 +12,7 @@ module.exports = function(grunt) {
           base: '../../',
           quiet: false, // Optionally suppress output to standard out (defaults to false)
           clearRequireCache: false, // Optionally clear the require cache before running tests (defaults to false)
-          timout: '5s',
+          timout: '10s',
         },
         src: [
           'test/bootstrap.test.js',

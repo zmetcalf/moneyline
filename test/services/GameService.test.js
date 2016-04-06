@@ -5,9 +5,10 @@ var fs = require('fs'),
 describe('GameService', function() {
   describe('updateGames', function() {
     beforeEach(function(done) {
-      fs.readFile('test/services/nhl.xml', 'utf-8', function(err, file) {
+      fs.readFile('./test/services/nhl.xml', 'utf-8', function(err, file) {
+        if(err) return done(err);
         sinon.stub(request, 'get', function(url, callback) {
-          return callback(err, file);
+          return callback(null, null, file);
         });
         done();
       });
@@ -19,8 +20,9 @@ describe('GameService', function() {
 
     it('should update games.', function (done) {
       GameService.updateGames(function(err, response) {
+        console.log(err);
         console.log(response);
-        done();
+        done(err);
       });
     });
   });
