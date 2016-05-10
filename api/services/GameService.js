@@ -24,47 +24,57 @@ module.exports = {
           async.waterfall([
             function(_innerGameCb) { // Check if game exists.
               Game.findOne().where(
-                { 'gameId': game.ID }).populateAll().exec(function(err, gameResult) {
+                { 'gameId': game.ID }).populateAll().exec(function(err, sysGame) {
                 if(err) return _innerGameCb(err);
-                _innerGameCb(null, gameResult);
+                _innerGameCb(null, sysGame);
               });
             },
 
-            function(gameResult, _innerGameCb) { // Get or Create Teams
-              if(gameResult) {
-                async.each(game.Event.Competitor, function(team, _teamCb) {
+            function(sysGame, _innerGameCb) { // Get or Create Teams
+              if(!sysGame) {
+                async.mapSeries(game.Event.Competitor, function(team, _teamCb) {
                   Team.findOne().where(
                     { 'bovadaTeamId': team.ID }).populateAll().exec(function(err, teamResult) {
                       if(err) return _teamCb(err);
-                      _teamCb(err, teamResult);
+                      if(!teamResult) {
+                        Team.create({ 'bovadaTeamId': team.ID }).exec(function(err, newTeam) {
+                          if(err) return _teamCb(err);
+                          _teamCb(err, newTeam);
+                        });
+                      } else {
+                        _teamCb(err, teamResult);
+                      }
                     });
                   },
-                function(err) {
+                function(err, teams) {
                   if(err) return _innerGameCb(err);
-                  // Verify Teams Exist
-                  _innerGameCb(null, null);
+                  if(teams.length == 2) {
+                    _innerGameCb(null, null, teams[0], teams[1]);
+                  } else {
+                    _innerGameCb('Invalid team count');
+                  }
                 });
               } else {
-                var home, away;
-                _innerGameCb(null, gameResult);
+                _innerGameCb(null, sysGame, sysGame.teams[0], sysGame.teams[1]);
               }
             },
 
-            function(gameResult, _innerGameCb) { // Get or Create Game
-              var home, away;
-              if(gameResult) {
-                _innerGameCb(null, home, away, gameResult);
+            function(sysGame, home, away, _innerGameCb) { // Get or Create Game
+              if(sysGame) {
+                _innerGameCb(null, home, away, sysGame);
               } else {
-
-                _innerGameCb(null, home, away, gameResult);
+                Game.create({ teams: [ home, away ], gameId: sysGame.ID }).exec(function(err, newGame) {
+                  if(err) return _innerGameCb(err);
+                  _innerGameCb(null, home, away, newGame);
+                });
               }
             },
 
-            function(home, away, gameResult, _innerGameCb) { // If game done add result
-              _innerGameCb(null, home, away, gameResult);
+            function(home, away, sysGame, _innerGameCb) { // If game done add result
+              _innerGameCb(null, home, away, sysGame);
             },
 
-            function(home, away, gameResult, _innerGameCb) {  // Check last datapoint - add if updated
+            function(home, away, sysGame, _innerGameCb) {  // Check last datapoint - add if updated
               _innerGameCb(null);
             },
 
